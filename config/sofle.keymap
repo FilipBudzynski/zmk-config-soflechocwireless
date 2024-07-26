@@ -40,10 +40,10 @@
 // |       |  -  |  _  |  :   |  =   |  +   |        |  |       |  N   |  [    |  ]    |  .   |   /   |       |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&trans    &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT                     &kp CARET &kp AMPS  &kp KP_MULTIPLY   &kp LPAR  &kp RPAR  &kp BSPC
-&kp GRAVE &kp LT    &kp SQT   &kp DQT     &kp RT    &kp AMPS                      &kp Y     &kp PIPE  &kp BSLH        &kp O     &kp P      &kp BSPC
-&trans    &kp LBRC  &kp LPAR  &kp RPAR    &kp RBRC  &kp HASH                      &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT &kp SEMI  &kp SQT
-&trans    &kp MINUS &kp UNDER &kp COLON   &kp EQUAL &kp KP_PLUS  &trans   &trans  &trans    &kp LBKT  &kp RBKT        &kp DOT   &kp FSLH  &kp RSHFT
+&trans    &kp EXCL  &kp AT    &kp HASH    &kp DLLR  &kp PRCNT                     &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &trans
+&kp GRAVE &kp LT    &kp APOS  &kp DQT     &kp GT    &kp AMPS                      &trans    &kp PIPE  &kp BSLH        &trans    &trans    &trans
+&trans    &kp LBRC  &kp LPAR  &kp RPAR    &kp RBRC  &kp HASH                      &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT &trans    &trans
+&trans    &kp MINUS &kp UNDER &kp COLON   &kp EQUAL &kp KP_PLUS  &trans   &trans  &trans    &kp LBKT  &kp RBKT        &trans    &trans    &trans
                     &trans    &trans      &trans    &trans       &trans   &trans  &trans    &trans    &trans          &trans
             >;
  
