@@ -40,6 +40,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        rGUI-jkl {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <31 32 33>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
