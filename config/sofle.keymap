@@ -48,15 +48,14 @@
             key-positions = <31 32 33>;
         };
 
-        to_aerospace_layer {
-            bindings = <&sk RA(LSHFT)>;
-            key-positions = <53 56>;
-            timeout-ms = <0>;
-        };
-
         lalt_sdf {
             bindings = <&kp LALT>;
             key-positions = <26 27 28>;
+        };
+
+        alt+shift_oneshot {
+            bindings = <&sk LA(LSHFT)>;
+            key-positions = <52 57>;
         };
     };
 
