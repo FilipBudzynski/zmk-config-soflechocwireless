@@ -49,8 +49,9 @@
         };
 
         to_aerospace_layer {
-            bindings = <&sk LS(RALT)>;
+            bindings = <&sk RA(LSHFT)>;
             key-positions = <53 56>;
+            timeout-ms = <0>;
         };
 
         lalt_sdf {
