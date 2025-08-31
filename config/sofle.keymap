@@ -49,8 +49,13 @@
         };
 
         to_aerospace_layer {
-            bindings = <&tog 3>;
+            bindings = <&sk LS(RA(K_NEXT))>;
             key-positions = <53 56>;
+        };
+
+        lalt_sdf {
+            bindings = <&kp LALT>;
+            key-positions = <26 27 28>;
         };
     };
 
@@ -70,7 +75,7 @@
 &kp TAB    &kp Q   &kp W      &kp E     &kp R     &kp T                                       &kp Y   &kp U     &kp I      &kp O      &kp P          &kp BSPC
 &kp ESC    &kp A   &kp S      &kp D     &kp F     &kp G                                       &kp H   &kp J     &kp K      &kp L      &kp SEMICOLON  &kp RET
 &kp LSHFT  &kp Z   &kp X      &kp C     &kp V     &kp B      &kp C_MUTE    &ext_power EP_TOG  &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH       &kp RSHFT
-                   &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp LCTRL     &tog 2             &mo 1   &kp RALT  &kp RGUI   &kp RCTRL
+                   &kp LCTRL  &kp LALT  &kp LGUI  &kp SPACE  &kp LCTRL     &mo 2              &mo 1   &kp RALT  &kp RGUI   &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -117,11 +122,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans         &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans         &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp LC(LS(A))  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans         &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
